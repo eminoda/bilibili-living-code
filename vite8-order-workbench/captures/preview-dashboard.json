@@ -1,0 +1,31 @@
+{
+  "label": "preview-dashboard",
+  "url": "http://127.0.0.1:5178/orders",
+  "chrome": "154.0.8037.58",
+  "note": "单次本机冒烟记录，只验证页面和真实请求，不作为视频性能结论。",
+  "totalRequests": 314,
+  "sameOriginRequests": 314,
+  "sourceModuleRequests": 309,
+  "failures": [],
+  "timings": {
+    "navigationStart": 0,
+    "firstContentfulPaintMs": 476,
+    "businessMarkerMs": 406,
+    "domContentLoadedMs": 394.2999999523163,
+    "loadEventMs": 403.39999997615814
+  },
+  "sampleModules": [
+    "http://127.0.0.1:5178/src/main.ts?t=1790870221390",
+    "http://127.0.0.1:5178/node_modules/.vite/deps/vue.js?v=ce926dcd",
+    "http://127.0.0.1:5178/node_modules/.vite/deps/element-plus.js?v=ce926dcd",
+    "http://127.0.0.1:5178/src/styles.css",
+    "http://127.0.0.1:5178/src/App.vue?t=1790870221390",
+    "http://127.0.0.1:5178/src/router.ts?t=1790870221390",
+    "http://127.0.0.1:5178/node_modules/.vite/deps/vue.runtime.esm-bundler-DJX_dVJt.js?v=ce926dcd",
+    "http://127.0.0.1:5178/src/components/AppShell.vue?t=1790870221390",
+    "http://127.0.0.1:5178/src/modules/business/address-corrections/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/batch-dispatch/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/bundle-products/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/campaign-offers/View.vue"
+  ]
+}

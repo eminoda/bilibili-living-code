@@ -1,0 +1,33 @@
+{
+  "label": "bundled-final",
+  "url": "http://127.0.0.1:5178/orders",
+  "chrome": "154.0.8037.58",
+  "note": "单次本机冒烟记录，只验证页面、首次访问、全量刷新及真实请求，不作为视频性能结论。",
+  "firstVisit": {
+    "totalRequests": 3,
+    "sameOriginRequests": 3,
+    "sourceModuleRequests": 0,
+    "timings": {
+      "navigationStart": 0,
+      "firstContentfulPaintMs": 432,
+      "businessMarkerMs": 359.8000000715256,
+      "domContentLoadedMs": 348.10000002384186,
+      "loadEventMs": 358.40000009536743
+    },
+    "sampleModules": []
+  },
+  "fullReload": {
+    "totalRequests": 3,
+    "sameOriginRequests": 3,
+    "sourceModuleRequests": 0,
+    "timings": {
+      "navigationStart": 0,
+      "firstContentfulPaintMs": 108,
+      "businessMarkerMs": 112.60000002384186,
+      "domContentLoadedMs": 81.29999995231628,
+      "loadEventMs": 89.20000004768372
+    },
+    "sampleModules": []
+  },
+  "failures": []
+}

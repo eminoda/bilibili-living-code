@@ -1,0 +1,43 @@
+{
+  "label": "default-element-plus",
+  "url": "http://127.0.0.1:5179/orders",
+  "chrome": "154.0.8037.92",
+  "cacheProtocol": "每次运行新建非持久化浏览器上下文，首次访问浏览器缓存为空且保持启用；同一上下文和服务器内执行普通刷新。依赖预构建缓存预热与新服务器由录制者按 README 准备。",
+  "businessReadyDefinition": "订单统计卡与订单表格第一行均在 1920×1080 视口内可见；orders-main-ready 是随后一帧的辅助标记。",
+  "note": "截图在固定 Ready 条件满足后保存；请求数截至 Network 空闲。单次记录仅供核对，正式页面时间需按同一协议多次采集。",
+  "firstVisit": {
+    "totalRequests": 345,
+    "sameOriginRequests": 0,
+    "sameOriginJsRequests": 0,
+    "sameOriginJsUrls": [],
+    "sourceModuleRequests": 0,
+    "requestTypes": {},
+    "timings": {
+      "navigationStart": 0,
+      "firstContentfulPaintMs": 1092,
+      "ordersMainReadyMarkerMs": 1030.7999999523163,
+      "domContentLoadedMs": 1006.3999999761581,
+      "loadEventMs": 1022.1999999284744
+    },
+    "sourceModuleUrls": [],
+    "mainFrameNavigations": 3
+  },
+  "fullReload": {
+    "totalRequests": 345,
+    "sameOriginRequests": 0,
+    "sameOriginJsRequests": 0,
+    "sameOriginJsUrls": [],
+    "sourceModuleRequests": 0,
+    "requestTypes": {},
+    "timings": {
+      "navigationStart": 0,
+      "firstContentfulPaintMs": 208,
+      "ordersMainReadyMarkerMs": 271.7999999523163,
+      "domContentLoadedMs": 187.29999995231628,
+      "loadEventMs": 199.19999992847443
+    },
+    "sourceModuleUrls": [],
+    "mainFrameNavigations": 2
+  },
+  "failures": []
+}

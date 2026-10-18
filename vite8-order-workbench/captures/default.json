@@ -1,0 +1,31 @@
+{
+  "label": "default",
+  "url": "http://127.0.0.1:5178/orders",
+  "chrome": "154.0.8037.58",
+  "note": "单次本机冒烟记录，只验证页面和真实请求，不作为视频性能结论。",
+  "totalRequests": 341,
+  "sameOriginRequests": 341,
+  "sourceModuleRequests": 331,
+  "failures": [],
+  "timings": {
+    "navigationStart": 0,
+    "firstContentfulPaintMs": 604,
+    "businessMarkerMs": 533,
+    "domContentLoadedMs": 523.5999999046326,
+    "loadEventMs": 530.8999999761581
+  },
+  "sampleModules": [
+    "http://127.0.0.1:5178/src/main.ts",
+    "http://127.0.0.1:5178/node_modules/.vite/deps/vue.js?v=6dd1f850",
+    "http://127.0.0.1:5178/node_modules/.vite/deps/element-plus.js?v=5406a164",
+    "http://127.0.0.1:5178/src/styles.css",
+    "http://127.0.0.1:5178/src/App.vue",
+    "http://127.0.0.1:5178/src/router.ts",
+    "http://127.0.0.1:5178/src/components/AppShell.vue",
+    "http://127.0.0.1:5178/src/modules/business/batch-dispatch/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/campaign-offers/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/category-performance/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/channel-conversion/View.vue",
+    "http://127.0.0.1:5178/src/modules/business/channel-orders/View.vue"
+  ]
+}

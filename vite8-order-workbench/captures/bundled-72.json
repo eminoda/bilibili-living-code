@@ -1,0 +1,18 @@
+{
+  "label": "bundled-72",
+  "url": "http://127.0.0.1:5178/orders",
+  "chrome": "154.0.8037.58",
+  "note": "单次本机冒烟记录，只验证页面和真实请求，不作为视频性能结论。",
+  "totalRequests": 3,
+  "sameOriginRequests": 3,
+  "sourceModuleRequests": 0,
+  "failures": [],
+  "timings": {
+    "navigationStart": 0,
+    "firstContentfulPaintMs": 432,
+    "businessMarkerMs": 360.60000002384186,
+    "domContentLoadedMs": 349.60000002384186,
+    "loadEventMs": 359.2999999523163
+  },
+  "sampleModules": []
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
+  color: #ededee;
+  background: #0a0a0c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --page: #0a0a0c;
+  --panel: #111114;
+  --panel-raised: #161619;
+  --line: #29292e;
+  --muted: #8b8b92;
+  --subtle: #66666e;
+  --text: #ededee;
+  --accent: #d7e8ff;
+  --motion: #e8e3ff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 82px; }
+
+body { min-width: 320px; min-height: 100vh; margin: 0; background: var(--page); }
+button { font-family: inherit; }
+a { color: inherit; }
+::selection { background: #e6e5eb; color: #111114; }
+
+.legacy-page { min-height: calc(100vh - 62px); background: #f5f3ee; color: #202722; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "cursor-zhantao-mcp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/mcp/server.mjs",
+    "mcp": "node src/mcp/server.mjs",
+    "test:loginAuth": "node src/loginAuth.mjs",
+    "test:getMyBugs": "node src/getMyBugs.mjs",
+    "test:getMyTasks": "node src/getMyTasks.mjs",
+    "test:getBugDetail": "node src/getBugDetail.mjs",
+    "test:getTaskDetail": "node src/getTaskDetail.mjs",
+    "test:fixBug": "node src/fixBug.mjs",
+    "test:getBugCommitContext": "node src/getBugCommitContext.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.0",
+    "zod": "4.3.6"
+  }
+}

@@ -1,0 +1,41 @@
+# Dependencies and generated output
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.vite/
+**/.turbo/
+**/out/
+**/output/
+**/*.tsbuildinfo
+**/*.log
+
+# Environment variables and credentials, including LLM provider keys
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.template
+**/.npmrc
+!**/.npmrc.example
+**/.netrc
+**/.pypirc
+**/.zentao-token
+**/*.token
+**/credentials
+**/credentials.*
+**/*credentials*
+**/secrets.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.crt
+**/*.cer
+**/*.jks
+**/*.keystore
+**/id_rsa*
+**/id_ed25519*
+
+# Local operating system files
+**/.DS_Store
+**/Thumbs.db
