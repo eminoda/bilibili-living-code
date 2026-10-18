@@ -1,0 +1,5 @@
+/* 全局主题微调：改这里可测「配置/全局样式」路径的 HMR（与单文件改 class 对照） */
+:root {
+  --admin-accent-rgb: 16 185 129;
+  --admin-surface-blur: 12px;
+}

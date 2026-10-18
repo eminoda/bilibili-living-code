@@ -1,0 +1,29 @@
+{
+  "topic": "vue3-shadcn-autonomous-style",
+  "clips": [
+    {
+      "id": "coldopen",
+      "file": "apps/living-projects/vue3-shadcn-autonomous-style/videos/clips/clip-coldopen.webm",
+      "public": "topic/vue3-shadcn-autonomous-style/clips/clip-coldopen.webm",
+      "durationSecondsApprox": 2.6
+    },
+    {
+      "id": "ownership",
+      "file": "apps/living-projects/vue3-shadcn-autonomous-style/videos/clips/clip-ownership.webm",
+      "public": "topic/vue3-shadcn-autonomous-style/clips/clip-ownership.webm",
+      "durationSecondsApprox": 2.64
+    },
+    {
+      "id": "theme",
+      "file": "apps/living-projects/vue3-shadcn-autonomous-style/videos/clips/clip-theme.webm",
+      "public": "topic/vue3-shadcn-autonomous-style/clips/clip-theme.webm",
+      "durationSecondsApprox": 3.12
+    },
+    {
+      "id": "table",
+      "file": "apps/living-projects/vue3-shadcn-autonomous-style/videos/clips/clip-table.webm",
+      "public": "topic/vue3-shadcn-autonomous-style/clips/clip-table.webm",
+      "durationSecondsApprox": 6.84
+    }
+  ]
+}

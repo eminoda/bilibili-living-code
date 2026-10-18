@@ -1,0 +1,11 @@
+组件变量不变,换的只是设计语言 token,不是每个组件都手改 class.这不是魔法,而是可以沉淀的令牌体系.
+
+看了 Shadcn 组件,素的不行,他难道只提供 UI 情绪价值?
+
+你先看下这个 Table 组件,是不是一点也不逊色?
+
+这离不开 headless 设计思想,我们之前讲过 TanStack Query,整个 TanStack 生态还有 Table,Form,花点时间研究他们可比 Ant Design 功能丰富.
+
+我们可以从 tanstack vue table 挑选任何有关的表格 API.
+
+比如用 Vue Table 这个组合式函数,我们可以配置数据源,列定义,状态管理,排序,分页,行模型等.打磨一套你自己的组件库,不再担心 Ant Design 不更新,而是自己说了算.

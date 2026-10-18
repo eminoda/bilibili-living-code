@@ -3,8 +3,12 @@
 **/dist/
 **/build/
 **/coverage/
+**/test-results/
+**/playwright-report/
 **/.vite/
 **/.turbo/
+**/.nuxt/
+**/.output/
 **/out/
 **/output/
 **/*.tsbuildinfo

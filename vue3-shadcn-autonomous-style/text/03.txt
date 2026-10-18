@@ -1,0 +1,13 @@
+什么是 shadcn?一套可自定义,扩展和构建的无头设计体系.那怎么用呢?
+
+不用担心,在 Vue 社区移植了一个 shadcn vue 库,可以帮你快速集成 shadcn 组件库.
+
+就两条命令:先 init 安装 shadcn vue 命令,再 add 你需要的组件,比如 button 和 card 组件.
+
+组件下载后,便能在 代码组件目录 ui 里 看到 button,card 组件,他们不是 node modules 里的黑盒,而是你自己的源码.我们可以将他们改成任何我们想要的样子.
+
+先看 button variants,通过 CVA 一种样式合并工具,将按钮的基础样式和 variant,size 变量组装成一个对象.
+
+先看 button 组件,导出 button Variants 变量,通过 cn 函数将 button Variants 和外部 class 拼在一起.只要通过 props 传入 variant,size,就能控制按钮的样式.
+
+最后,在需要使用按钮的地方,直接 import 组件,并传入 variant,size 即可.就这样,你拥有了一个可以自由定制的按钮组件.

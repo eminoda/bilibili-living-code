@@ -1,0 +1,7 @@
+在 Ant Design 里,你会怎么实现"暗黑主题"?在 Shadcn 里,你可以用 theme 变量,搭配 Tailwind 的 dark 类,来实现一键切换.
+
+还记得在前面设计的 button Variants 吗?他其实是一堆 Tailwind 类的集合,通过 cva 函数将他们组装成一个对象.
+
+使用瑞士军刀 VueUse,用 Color Mode 这个组合式函数,点击按钮,往 html 上挂载 dark 类,从而触发样式切换.
+
+在全局样式里,比如 style css 中,把 shadcn 的同一批变量名换成暗色 欧 K L C H 色彩.

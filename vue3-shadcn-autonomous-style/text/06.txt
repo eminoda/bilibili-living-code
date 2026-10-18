@@ -1,0 +1,1 @@
+总结:第一,本地源码 - 告别 node modules 黑盒,直接对接源码.第二,变体 + 主题 - cva + variant 把样式对象化,有迹可循.第三,生态拼接 - 只要是 headless 设计,就能和 Shadcn 丝滑结合.
