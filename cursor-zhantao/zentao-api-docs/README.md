@@ -25,7 +25,7 @@
 在仓库根目录执行：
 
 ```powershell
-& '.\apps\living-projects\zentao-api-docs\download-v2-manual.ps1'
+& '.\apps\living-projects\cursor-zhantao\zentao-api-docs\download-v2-manual.ps1'
 ```
 
 脚本从官方目录重新发现 v2.0 条目，会覆盖同名本地副本并更新 manifest。联网运行。

@@ -52,6 +52,6 @@ UI 默认地址为 `http://127.0.0.1:5182/`，Mock Server 默认地址为 `http:
 
 ## 修改数据
 
-演示数据和 API v2 路由位于 `apps/living-projects/cursor-zhantao-mock-server/src/data.mjs` 与 `src/server.mjs`。UI 的 HTTP 调用和 v2 字段到页面字段的映射位于 `src/api/zentaoClient.ts`。要单独启动 UI 可运行 `pnpm dev:zhantao-mock`，但需要另开终端启动 `pnpm dev:zhantao-mock-server`。
+演示数据和 API v2 路由位于 `apps/living-projects/cursor-zhantao/cursor-zhantao-mock-server/src/data.mjs` 与 `src/server.mjs`。UI 的 HTTP 调用和 v2 字段到页面字段的映射位于 `src/api/zentaoClient.ts`。要单独启动 UI 可运行 `pnpm dev:zhantao-mock`，但需要另开终端启动 `pnpm dev:zhantao-mock-server`。
 
 当前只读覆盖登录、项目/产品/执行列表、执行任务列表、产品/项目 Bug 列表和 Bug 详情。Mock Token 与登录凭证只用于本地演示；请勿将真实公司任务或 Bug 信息复制到种子数据。

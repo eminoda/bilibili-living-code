@@ -1,6 +1,6 @@
 # Cursor 禅道 Mock Server
 
-本项目提供本地 HTTP Mock 接口，面向后续 MCP 封装。`/api.php/v2` 路径上的方法、参数、筛选枚举、资源名和成功响应遵循 `apps/living-projects/zentao-api-docs` 中下载的禅道 RESTful API v2.0 手册。数据均为虚构，不连接公司禅道，也不包含真实账号。
+本项目提供本地 HTTP Mock 接口，面向后续 MCP 封装。`/api.php/v2` 路径上的方法、参数、筛选枚举、资源名和成功响应遵循 `apps/living-projects/cursor-zhantao/zentao-api-docs` 中下载的禅道 RESTful API v2.0 手册。数据均为虚构，不连接公司禅道，也不包含真实账号。
 
 ## 启动
 

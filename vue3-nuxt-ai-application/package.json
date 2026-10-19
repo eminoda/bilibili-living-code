@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ai-application",
+  "name": "vue3-nuxt-ai-application",
   "type": "module",
   "private": true,
   "scripts": {
